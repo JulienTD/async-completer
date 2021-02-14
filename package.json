@@ -1,0 +1,40 @@
+{
+  "name": "async-completer",
+  "version": "1.0.0",
+  "description": "Add possibility to complete a promise when we want.",
+  "main": "./lib/Completer.js",
+  "types": "./lib/Completer.d.ts",
+  "scripts": {
+    "test": "jest",
+    "example": "tsc -p ./example/ && node ./example/build/Example.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulienTD/async-completer.git"
+  },
+  "keywords": [
+    "completer",
+    "promise-completer",
+    "future-completer",
+    "promise",
+    "future"
+  ],
+  "author": "JulienTD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulienTD/async-completer/issues"
+  },
+  "homepage": "https://github.com/JulienTD/async-completer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.14.27",
+    "jest": "^26.4.0",
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
